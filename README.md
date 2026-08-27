@@ -2,18 +2,18 @@
 
 A growing portfolio of experimental-physics laboratory work developed during my studies at Universidad Técnica Federico Santa María (UTFSM).
 
-This repository keeps the **final academic reports** in `papers/` and organizes the supporting material for each experiment inside `projects/`. Each project folder can contain experimental data, analysis files, figures, Tracker projects and supplementary documents without mixing material from different reports.
+This repository keeps final academic reports in `papers/` and organizes the supporting material for each experiment inside `projects/`. When the final deliverable is not a paper, such as the viscous-fall poster, it is stored directly with its project.
 
-## Current reports
+## Current projects
 
-| Project | Paper | Supporting files |
+| Project | Final document | Supporting files |
 |---|---|---|
 | Análisis de un movimiento en caída libre | [`paper`](./papers/analisis-de-un-movimiento-en-caida-libre.pdf) | [`project`](./projects/analisis-de-un-movimiento-en-caida-libre/) |
 | Lanzamiento parabólico: contrastes entre teoría, medición experimental y modelado digital | [`paper`](./papers/lanzamiento-parabolico-contrastes-entre-teoria-medicion-experimental-y-modelado-digital.pdf) | [`project`](./projects/lanzamiento-parabolico/) |
 | Movimiento aleatorio en dos dimensiones: análisis del desplazamiento cuadrático medio y clasificación del régimen dinámico | [`paper`](./papers/movimiento-aleatorio-en-dos-dimensiones-analisis-del-desplazamiento-cuadratico-medio-y-clasificacion-del-regimen-dinamico.pdf) | [`project`](./projects/movimiento-aleatorio/) |
 | Estudio experimental de la resistencia del aire en el movimiento de un carro sobre riel de aire | [`paper`](./papers/estudio-experimental-de-la-resistencia-del-aire-en-el-movimiento-de-un-carro-sobre-riel-de-aire.pdf) | [`project`](./projects/resistencia-del-aire/) |
-| Análisis experimental del comportamiento dinámico de sistemas oscilatorios amortiguados y acoplados | [`paper`](./papers/analisis-experimental-del-comportamiento-dinamico-de-sistemas-oscilatorios-amortiguados-y-acoplados.pdf) | supporting files pending |
-| Caída libre en medios viscosos | [`paper`](./papers/caida-libre-en-medios-viscosos.pdf) | supporting files pending |
+| Análisis experimental del comportamiento dinámico de sistemas oscilatorios amortiguados y acoplados | [`paper`](./papers/analisis-experimental-del-comportamiento-dinamico-de-sistemas-oscilatorios-amortiguados-y-acoplados.pdf) | organization in progress |
+| Caída libre en medios viscosos | [`poster`](./projects/caida-libre-en-medios-viscosos/docs/poster.pdf) | [`project`](./projects/caida-libre-en-medios-viscosos/) |
 
 ## Repository structure
 
@@ -25,35 +25,26 @@ Proyectos/
 └── projects/
     ├── README.md
     ├── analisis-de-un-movimiento-en-caida-libre/
-    │   ├── README.md
-    │   ├── data/
-    │   ├── docs/
-    │   └── figures/
     ├── lanzamiento-parabolico/
-    │   ├── README.md
-    │   ├── data/
-    │   ├── tracker/
-    │   └── figures/
     ├── movimiento-aleatorio/
-    │   ├── README.md
-    │   ├── data/
-    │   ├── figures/
-    │   └── runs/
-    └── resistencia-del-aire/
+    ├── resistencia-del-aire/
+    └── caida-libre-en-medios-viscosos/
         ├── README.md
+        ├── docs/
         ├── data/
-        │   ├── raw/
-        │   └── processed/
-        └── analysis/
+        ├── videos/
+        ├── tracker/
+        ├── analysis/
+        └── figures/
 ```
 
 ## Organization principles
 
-- **Final papers** remain unchanged in `papers/`.
-- **Raw measurements** are kept separate from processed results when that distinction is available.
-- **Analysis code** stays with the experiment that generated it.
-- **Figures and setup images** are grouped with their corresponding project.
-- **Tracker and instrument-specific files** retain useful original names when changing them could break their relationship with source recordings.
+- Final **reports** remain unchanged in `papers/`.
+- Final deliverables of another type, such as a **poster**, stay with the corresponding project.
+- Raw experimental recordings and Tracker files are kept separate from processed results.
+- Analysis code stays with the experiment that generated it.
+- Figures and setup material are grouped with their corresponding project.
 - Duplicate copies are consolidated when they contain the same data.
 
 This organization is being expanded as the remaining experimental documentation is added.
