@@ -16,7 +16,6 @@ The **final academic deliverable for this experiment is a poster**, not a paper.
 ## Contents
 
 - [`docs/poster.pdf`](./docs/poster.pdf) — final academic poster.
-- [`docs/lab-guide.pdf`](./docs/lab-guide.pdf) — laboratory guide for the experiment.
 - [`data/experimental-data.xlsx`](./data/experimental-data.xlsx) — experimental workbook.
 - [`data/processed/`](./data/processed/) — processed terminal-velocity and sphere-summary results.
 - [`tracker/`](./tracker/) — Tracker project files for the three recorded spheres.
