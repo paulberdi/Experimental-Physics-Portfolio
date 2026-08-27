@@ -57,6 +57,6 @@ A separate repository documents the design, simulation, implementation and exper
 
 ## Author
 
-**Paul Berdichewsky**  
+**Paul Berdichewsky**  **Rafael Williams**
 Civil Engineering in Physics student  
 Universidad Técnica Federico Santa María - Santiago, Chile
