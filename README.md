@@ -12,7 +12,7 @@ This repository keeps final academic reports in `papers/` and organizes the supp
 | Lanzamiento parabólico: contrastes entre teoría, medición experimental y modelado digital | [`paper`](./papers/lanzamiento-parabolico-contrastes-entre-teoria-medicion-experimental-y-modelado-digital.pdf) | [`project`](./projects/lanzamiento-parabolico/) |
 | Movimiento aleatorio en dos dimensiones: análisis del desplazamiento cuadrático medio y clasificación del régimen dinámico | [`paper`](./papers/movimiento-aleatorio-en-dos-dimensiones-analisis-del-desplazamiento-cuadratico-medio-y-clasificacion-del-regimen-dinamico.pdf) | [`project`](./projects/movimiento-aleatorio/) |
 | Estudio experimental de la resistencia del aire en el movimiento de un carro sobre riel de aire | [`paper`](./papers/estudio-experimental-de-la-resistencia-del-aire-en-el-movimiento-de-un-carro-sobre-riel-de-aire.pdf) | [`project`](./projects/resistencia-del-aire/) |
-| Análisis experimental del comportamiento dinámico de sistemas oscilatorios amortiguados y acoplados | [`paper`](./papers/analisis-experimental-del-comportamiento-dinamico-de-sistemas-oscilatorios-amortiguados-y-acoplados.pdf) | organization in progress |
+| Análisis experimental del comportamiento dinámico de sistemas oscilatorios amortiguados y acoplados | [`paper`](./papers/analisis-experimental-del-comportamiento-dinamico-de-sistemas-oscilatorios-amortiguados-y-acoplados.pdf) | [`project`](./projects/oscilaciones-amortiguadas-y-acopladas/) |
 | Caída libre en medios viscosos | [`poster`](./projects/caida-libre-en-medios-viscosos/docs/poster.pdf) | [`project`](./projects/caida-libre-en-medios-viscosos/) |
 
 ## Repository structure
@@ -28,21 +28,15 @@ Proyectos/
     ├── lanzamiento-parabolico/
     ├── movimiento-aleatorio/
     ├── resistencia-del-aire/
-    └── caida-libre-en-medios-viscosos/
-        ├── README.md
-        ├── docs/
-        ├── data/
-        ├── videos/
-        ├── tracker/
-        ├── analysis/
-        └── figures/
+    ├── caida-libre-en-medios-viscosos/
+    └── oscilaciones-amortiguadas-y-acopladas/
 ```
 
 ## Organization principles
 
 - Final **reports** remain unchanged in `papers/`.
 - Final deliverables of another type, such as a **poster**, stay with the corresponding project.
-- Raw experimental recordings and Tracker files are kept separate from processed results.
+- Raw experimental recordings and instrument-specific files are kept separate from processed results when that distinction is available.
 - Analysis code stays with the experiment that generated it.
 - Figures and setup material are grouped with their corresponding project.
 - Duplicate copies are consolidated when they contain the same data.
