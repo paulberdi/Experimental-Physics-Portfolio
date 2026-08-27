@@ -8,6 +8,6 @@ This directory contains the datasets, analysis files, Tracker projects, videos, 
 - [`lanzamiento-parabolico`](./lanzamiento-parabolico/) — experimental workbook, Tracker project files and setup images.
 - [`movimiento-aleatorio`](./movimiento-aleatorio/) — datasets and analysis outputs for 28, 31, 35 and 50 spheres, plus the experimental workbook and setup image.
 - [`resistencia-del-aire`](./resistencia-del-aire/) — raw VCM measurements, processed CSV files and Python analysis code.
-- [`caida-libre-en-medios-viscosos`](./caida-libre-en-medios-viscosos/) — final poster, laboratory guide, experimental videos, Tracker projects, data, Python analysis and generated figures.
+- [`caida-libre-en-medios-viscosos`](./caida-libre-en-medios-viscosos/) — final poster, experimental videos, Tracker projects, data, Python analysis and generated figures.
 
 Most final academic reports are stored in [`papers/`](../papers/). Projects whose final deliverable is another format, such as the viscous-fall poster, keep that final document inside the project folder.
