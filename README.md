@@ -1,8 +1,8 @@
-# Experimental Physics Projects
+# Experimental Physics Laboratory Portfolio
 
-A growing portfolio of experimental-physics laboratory work developed during my studies at Universidad Técnica Federico Santa María (UTFSM).
+A curated portfolio of experimental physics projects developed at Universidad Técnica Federico Santa María (UTFSM), combining **laboratory measurements, data analysis, physical modeling and reproducible documentation**.
 
-This repository keeps final academic reports in `papers/` and organizes the supporting material for each experiment inside `projects/`. When the final deliverable is not a paper, such as the viscous-fall poster, it is stored directly with its project.
+This repository keeps final academic reports in `papers/` and organizes the supporting material for each experiment inside `projects/`. Each documented experiment includes the available raw measurements, processed data, analysis files, figures and final academic deliverable. When the final deliverable is not a paper, such as the viscous-fall poster, it is stored directly with its project.
 
 ## Current projects
 
