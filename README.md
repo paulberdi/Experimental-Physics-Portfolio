@@ -1,4 +1,4 @@
-# Experimental Physics Laboratory Portfolio
+# Experimental Physics Portfolio
 
 A curated portfolio of experimental physics projects developed at Universidad Técnica Federico Santa María (UTFSM), combining **laboratory measurements, data analysis, physical modeling and reproducible documentation**.
 
