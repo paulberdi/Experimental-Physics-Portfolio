@@ -2,20 +2,18 @@
 
 A growing portfolio of experimental-physics laboratory work developed during my studies at Universidad Técnica Federico Santa María (UTFSM).
 
-This repository is organized to keep the **original academic reports** separate from the **experimental data**, **analysis code** and **figures** used to support them. The goal is to turn each experiment into a reproducible technical project rather than keeping the repository as a collection of PDFs.
+This repository keeps the **original academic reports** separate from the **experimental data**, **analysis code** and **figures** used to support them. The goal is to turn each experiment into a reproducible technical project rather than keeping the repository as a collection of PDFs.
 
 ## Current reports
 
-| Report | Document |
+| Project | Document |
 |---|---|
-| Free fall in viscous media | [`papers/free-fall-viscous-media.pdf`](./papers/free-fall-viscous-media.pdf) |
-| FIS200 - Report 01 | [`papers/fis200-report-01.pdf`](./papers/fis200-report-01.pdf) |
-| FIS200 - Report 02 | [`papers/fis200-report-02.pdf`](./papers/fis200-report-02.pdf) |
-| FIS200 - Report 03 | [`papers/fis200-report-03.pdf`](./papers/fis200-report-03.pdf) |
-| FIS200 - Report 04 | [`papers/fis200-report-04.pdf`](./papers/fis200-report-04.pdf) |
-| FIS200 - Report 06 | [`papers/fis200-report-06.pdf`](./papers/fis200-report-06.pdf) |
-
-The free-fall report is explicitly identified by its original title. The remaining reports are currently indexed by their original FIS200 report numbers; their descriptive project titles will be added when their supporting material is incorporated.
+| Análisis de un movimiento en caída libre | [`paper`](./papers/analisis-de-un-movimiento-en-caida-libre.pdf) |
+| Lanzamiento parabólico: contrastes entre teoría, medición experimental y modelado digital | [`paper`](./papers/lanzamiento-parabolico-contrastes-entre-teoria-medicion-experimental-y-modelado-digital.pdf) |
+| Movimiento aleatorio en dos dimensiones: análisis del desplazamiento cuadrático medio y clasificación del régimen dinámico | [`paper`](./papers/movimiento-aleatorio-en-dos-dimensiones-analisis-del-desplazamiento-cuadratico-medio-y-clasificacion-del-regimen-dinamico.pdf) |
+| Estudio experimental de la resistencia del aire en el movimiento de un carro sobre riel de aire | [`paper`](./papers/estudio-experimental-de-la-resistencia-del-aire-en-el-movimiento-de-un-carro-sobre-riel-de-aire.pdf) |
+| Análisis experimental del comportamiento dinámico de sistemas oscilatorios amortiguados y acoplados | [`paper`](./papers/analisis-experimental-del-comportamiento-dinamico-de-sistemas-oscilatorios-amortiguados-y-acoplados.pdf) |
+| Caída libre en medios viscosos | [`paper`](./papers/caida-libre-en-medios-viscosos.pdf) |
 
 ## Repository structure
 
@@ -23,12 +21,12 @@ The free-fall report is explicitly identified by its original title. The remaini
 Proyectos/
 ├── README.md
 ├── papers/
-│   ├── free-fall-viscous-media.pdf
-│   ├── fis200-report-01.pdf
-│   ├── fis200-report-02.pdf
-│   ├── fis200-report-03.pdf
-│   ├── fis200-report-04.pdf
-│   └── fis200-report-06.pdf
+│   ├── analisis-de-un-movimiento-en-caida-libre.pdf
+│   ├── lanzamiento-parabolico-contrastes-entre-teoria-medicion-experimental-y-modelado-digital.pdf
+│   ├── movimiento-aleatorio-en-dos-dimensiones-analisis-del-desplazamiento-cuadratico-medio-y-clasificacion-del-regimen-dinamico.pdf
+│   ├── estudio-experimental-de-la-resistencia-del-aire-en-el-movimiento-de-un-carro-sobre-riel-de-aire.pdf
+│   ├── analisis-experimental-del-comportamiento-dinamico-de-sistemas-oscilatorios-amortiguados-y-acoplados.pdf
+│   └── caida-libre-en-medios-viscosos.pdf
 ├── data/
 │   └── README.md
 ├── analysis/
@@ -55,8 +53,8 @@ A separate repository documents the design, simulation, implementation and exper
 
 [`analog-3-band-equalizer`](https://github.com/paulberdi/analog-3-band-equalizer)
 
-## Author
+## Authors
 
-**Paul Berdichewsky**  **Rafael Williams**
-Civil Engineering in Physics student  
+**Paul Berdichewsky** · **Rafael Williams**  
+Civil Engineering in Physics students  
 Universidad Técnica Federico Santa María - Santiago, Chile
