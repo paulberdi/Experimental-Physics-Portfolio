@@ -10,5 +10,6 @@ This directory contains the datasets, analysis files, Tracker projects, videos, 
 - [`resistencia-del-aire`](./resistencia-del-aire/) — raw VCM measurements, processed CSV files and Python analysis code.
 - [`caida-libre-en-medios-viscosos`](./caida-libre-en-medios-viscosos/) — final poster, experimental videos, Tracker projects, data, Python analysis and generated figures.
 - [`oscilaciones-amortiguadas-y-acopladas`](./oscilaciones-amortiguadas-y-acopladas/) — experimental workbook, raw VCM measurements and setup photographs associated with the final report on damped and coupled oscillatory systems.
+- [`calibracion-sensores-temperatura`](./calibracion-sensores-temperatura/) — PT100 and gas-manometer thermometry experiment with processed measurements, uncertainty propagation, linear regression and Python analysis.
 
 Most final academic reports are stored in [`papers/`](../papers/). Projects whose final deliverable is another format, such as the viscous-fall poster, keep that final document inside the project folder.
