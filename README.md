@@ -14,7 +14,7 @@ This repository keeps final academic reports in `papers/` and organizes the supp
 | Estudio experimental de la resistencia del aire en el movimiento de un carro sobre riel de aire | [`paper`](./papers/estudio-experimental-de-la-resistencia-del-aire-en-el-movimiento-de-un-carro-sobre-riel-de-aire.pdf) | [`project`](./projects/resistencia-del-aire/) |
 | Análisis experimental del comportamiento dinámico de sistemas oscilatorios amortiguados y acoplados | [`paper`](./papers/analisis-experimental-del-comportamiento-dinamico-de-sistemas-oscilatorios-amortiguados-y-acoplados.pdf) | [`project`](./projects/oscilaciones-amortiguadas-y-acopladas/) |
 | Caída libre en medios viscosos | [`poster`](./projects/caida-libre-en-medios-viscosos/docs/poster.pdf) | [`project`](./projects/caida-libre-en-medios-viscosos/) |
-| Calibración de sensores de temperatura mediante PT100 y sistema manométrico de gas | [`project README`](./projects/calibracion-sensores-temperatura) | [`project`](./projects/calibracion-sensores-temperatura/) |
+| Calibración de sensores de temperatura mediante PT100 y sistema manométrico de gas | [`project`](./projects/calibracion-sensores-temperatura) | [`project`](./projects/calibracion-sensores-temperatura/) |
 
 ## Repository structure
 
